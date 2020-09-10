@@ -57,8 +57,18 @@ input[type=number] {
 
 .status {
     text-align: center;
-    font-size: .85rem;
-  }
+    font-size: 1.2rem;
+}
+
+.points-needed {
+    color: green;
+    font-weight: bolder;
+}
+
+.mistakes-allowed {
+    color: red;
+    font-weight: bolder;
+}
 
 .boxes {
     display: flex;
